@@ -1,5 +1,5 @@
-from src.similarity.estimator import DescriptionSimilarity
+from src.similarity.estimator import FileSimilarity
 
 
 if __name__ == '__main__':
-    DescriptionSimilarity().run()
+    FileSimilarity().run()

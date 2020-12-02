@@ -1,9 +1,9 @@
-## DescriptionSimilarity
+## FileSimilarity
 
 ## Overview
 
-This project is to estimate the similarities between the texts and get top n most similar text with similarity value. 
-To get the features of the text, Gensim, NLTK, Spacy, libraries are used and scikit-learn library is used for the 
+This project is to estimate the similarities between the texts. 
+To get the features of the text, Gensim, NLTK, Spacy libraries are used and scikit-learn library is used for the 
 estimation of the similarity. 
 Also, a pre-trained model which is part of a model that is trained on 100 billion words from the Google News Dataset is 
 used for Natural Language Processing.
@@ -29,7 +29,7 @@ used for Natural Language Processing.
     
 - settings
 
-    Several settings including the input excel path, threshold value, top n number. 
+    Several settings including the input excel path. 
 
 ## Installation
 
@@ -46,12 +46,12 @@ used for Natural Language Processing.
         python3 -m nltk.downloader all
     ```
 
-- Please create the "model" folder in the "utils" folder of this project directory and copy the model into the "model" folder
+- Please create the "model" folder in the "utils" folder of this project directory and copy the model into the "model" folder.
  
 ## Execution
 
-- Please set INPUT_EXCEL_PATH, SIMILARITY_THRESH, SIMILARITY_NUMBER in settings file with the input excel file path, 
-similarity threshold value, and the number of the similar sentences as you want.
+- Please set INPUT_EXCEL_PATH in settings file with the absolute path of the excel path. In Windows, when you set the path, 
+you have to replace "\" with "\\".
 
 - Please run the following command in the terminal
 

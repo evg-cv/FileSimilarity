@@ -39,16 +39,7 @@ class TextPreprocessor:
 
 if __name__ == '__main__':
     text_processor = TextPreprocessor()
-    token_sentences = text_processor.tokenize_sentence("In practice, the main difference is that GloVe embeddings "
-                                                           "work "
-                                                           "better on some "
-                                                           "data sets, while word2vec embeddings work better on "
-                                                       "others. "
-                                                           "They both do very "
-                                                           "well at capturing the semantics of analogy, and that "
-                                                       "takes us, "
-                                                           "it turns out, "
-                                                           "a very long way toward lexical semantics in general.")
+    token_sentences = text_processor.tokenize_sentence("")
     for t_sentence in token_sentences:
         token_words = text_processor.tokenize_word(sample=t_sentence.text)
         print(token_words)
