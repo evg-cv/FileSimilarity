@@ -42,7 +42,7 @@ used for Natural Language Processing.
     Please go ahead to this project directory and run the following commands in the terminal
     ```
         pip3 install -r requirements.txt
-        python3 -m spacy download en_core_web_sm
+        python3 -m spacy download en
         python3 -m nltk.downloader all
     ```
 
@@ -50,8 +50,8 @@ used for Natural Language Processing.
  
 ## Execution
 
-- Please set INPUT_EXCEL_PATH in settings file with the absolute path of the excel path. In Windows, when you set the path, 
-you have to replace "\" with "\\".
+- Please set INPUT_EXCEL_PATH, SHEET_NAME in settings file with the absolute path of the excel path and sheet name. 
+In Windows, when you set the path, you have to replace "\" with "\\".
 
 - Please run the following command in the terminal
 
